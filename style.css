@@ -1,0 +1,141 @@
+/* 
+# for id
+. for class
+blank for element
+*/
+html{
+	/*
+	background-image: url("https://s31.postimg.org/6g5pby1gb/image.jpg");
+	background-image: url("https://s31.postimg.org/k9rkpnipn/blue_on_black.png");
+	background-image: url("https://s31.postimg.org/z4ef9t67v/stars.jpg");*/
+	background-image: url("https://s32.postimg.org/epc692m2d/wood.jpg");
+	background-size: cover;
+
+	/*background: gray; /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(black, gray); /* Standard syntax */
+   
+    padding-bottom: 60px;
+    height: 100%;
+}
+
+
+body {
+	height: 100%;
+    margin: 0;
+	padding-left: 40px;
+	padding-top: 20px;
+	font-family: "Courier New";
+	background-attachment: fixed;
+	
+	/*background: #000000;*/
+
+}
+
+h1 {
+
+	color: #ffffff;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #000000;
+
+}
+
+h3 {
+
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+
+div {
+
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #ffffff;
+
+	/*text-shadow: 2px 2px #000000;*/
+}
+
+a {
+
+	font-style: bold;
+	font-size: 150%;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 2px 2px #000000;
+
+}
+
+.title-box {
+	width: auto;
+	height: 35%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+/* Initial menu */
+.menu {
+  left: -300px;  /* start off behind the scenes */
+  height: 100%;
+  position: absolute;
+  width: 300px;
+  opacity: 0.8;
+}
+
+.funbox {
+
+	height: 35px;
+	width: 250px;  
+	/*background: #73AD21;*/
+	border-radius: 15px 50px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	padding-top: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	position: relative;
+
+}
+
+.current-funbox {
+
+	opacity: 1;
+	
+}
+
+.menu-icon {
+
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+	font-size: 150%;
+	cursor: pointer;
+	letter-spacing: 2px;
+	position: relative;
+	
+
+
+}
+
+.close-icon {
+
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 225px;
+	text-transform: uppercase;
+	font-size: 250%;
+	cursor: pointer;
+	letter-spacing: 2px;
+	position: relative;
+	
+
+
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
